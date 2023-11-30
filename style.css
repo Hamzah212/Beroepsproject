@@ -1,18 +1,54 @@
-#Straat{
-    color: aqua (1, 1,);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
-#Cijfer{
-    color: blueviolet;
-}
-#gun1{
-    caret-color: aquamarine;
-}
-nav{
-    color: greenyellow;
-    margin: 4px;px ;
-    padding: 4px;
-   
-}
-div{
+.h2{
     text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.container h2{
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+    border: 40px solid #ddd;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Voeg een beetje ruimte tussen de formulieren toe */
+form + form {
+    margin-top: 20px;
 }
