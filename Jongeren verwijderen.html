@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Administratie</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Administratie</h2>
+        <form action="process.php" method="post">
+            <label for="id_verwijderen">ID verwijderen van jongere:</label>
+            <input type="number" name="id_verwijderen" required>
+            <label for="naam">Naam:</label>
+            <input type="text" name="naam" required>
+            <label for="ahternaam">Achternaam:</label>
+            <input type="text" name="Achternaam" required>
+            <label for="leeftijd">Leeftijd:</label>
+            <input type="number" name="leeftijd" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="telefoonnummer">Telefoonnummer:</label>
+            <input type="text" name="number" required>
+            <button type="submit" name="verwijderen">Verwijderen</button>
+        </form>
+</div>
+</body>
+</html>

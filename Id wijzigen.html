@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Administratie</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Administratie</h2>
+        <form action="process.php" method="post">
+            <label for="id_wijzigen">ID wijzigen van jongere:</label>
+            <input type="number" name="id_wijzigen" required>
+            <label for="number">Nieuwe Id:</label>
+            <input type="text" name="nieuwe_id" required>
+            <label for="Voornaam">Nieuwe Voornaam:</label>
+            <input type="text" name="nieuwe_voornaam" required>
+            <label for="Achternaam">Nieuwe Achternaam:</label>
+            <input type="text" name="nieuwe_achternaam" required>
+            <label for="leeftijd"> Nieuwe Leeftijd:</label>
+            <input type="number" name="nieuwe_leeftijd" required>
+            <label for="email">Nieuwe Email:</label>
+            <input type="email" name="nieuwe_email" required>
+            <label for="telefoonnummer">Nieuwe Telefoonnummer:</label>
+            <input type="tel" name="nieuwe_telefoonnummer" required>
+            <button type="submit" name="wijzigen">Wijzigen</button>
+        </form>
+    </form>
+</div>
+</body>
+</html>

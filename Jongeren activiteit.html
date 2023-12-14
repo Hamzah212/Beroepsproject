@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Administratie</title>
+</head>
+<body>
+    <div class="container">
+        <form action="process.php" method="post">
+            <label for="id_koppelen">ID van jongere koppelen aan activiteit:</label>
+            <input type="number" name="id_koppelen" required>
+            <label for="naam">Naam:</label>
+            <input type="text" name="naam" required>
+            <label for="ahternaam">Achternaam:</label>
+            <input type="text" name="Achternaam" required>
+            <label for="leeftijd">Leeftijd:</label>
+            <input type="number" name="leeftijd" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="telefoonnummer">Telefoonnummer:</label>
+            <input type="text" name="number" required>
+            <label for="activiteit">Activiteit:</label>
+        
+            <input type="text" name="activiteit">
+            <button type="submit" name="koppelen_activiteit">Koppelen aan activiteit</button>
+        </form>
+    </form>
+</div>
+</body>
+</html>
